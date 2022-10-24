@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,31 +13,31 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NYA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EE6-su-HVB">
-                                <rect key="frame" x="80" y="54" width="254" height="778"/>
+                                <rect key="frame" x="80" y="10" width="160" height="528"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7nV-JG-s7m" userLabel="ViewBlack">
-                                        <rect key="frame" x="0.0" y="0.0" width="254" height="718"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="468"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdz-rf-koP" userLabel="ViewRed">
-                                                <rect key="frame" x="20" y="23" width="214" height="214"/>
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdz-rf-koP" userLabel="ViewRed">
+                                                <rect key="frame" x="20" y="39" width="120" height="120"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="jdz-rf-koP" secondAttribute="height" multiplier="1:1" id="JWG-n6-Z5B"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Co-dm-eUr" userLabel="ViewYellow">
-                                                <rect key="frame" x="20" y="252" width="214" height="214"/>
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Co-dm-eUr" userLabel="ViewYellow">
+                                                <rect key="frame" x="20" y="174" width="120" height="120"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="7Co-dm-eUr" secondAttribute="height" multiplier="1:1" id="bJP-Rr-Jks"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uHf-M6-r2E" userLabel="ViewGreen">
-                                                <rect key="frame" x="20" y="481" width="214" height="214"/>
+                                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uHf-M6-r2E" userLabel="ViewGreen">
+                                                <rect key="frame" x="20" y="309" width="120" height="120"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="uHf-M6-r2E" secondAttribute="height" multiplier="1:1" id="laq-mI-WeM"/>
@@ -58,7 +58,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhD-qB-GwU">
-                                        <rect key="frame" x="77" y="728" width="100" height="50"/>
+                                        <rect key="frame" x="30" y="478" width="100" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.38847642789999998" blue="0.77695285569999994" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="kya-5W-fvR"/>
