@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         case green
     }
     
-    var light: LightIs = .red
+    var light: LightIs = .green
     
     @IBOutlet var startButton: UIButton!
     
